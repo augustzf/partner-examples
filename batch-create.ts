@@ -22,7 +22,7 @@ const argv = yargs
 interface StringMap { [s: string]: string }
 
 async function runBatch(partnerId: string, partnerToken: string, count: number) {
-    const url = `https://api.dev.unloc.app/v1/partners/${partnerId}/batch/keys`
+    const url = `https://api.unloc.app/v1/partners/${partnerId}/batch/keys`
     const headers: StringMap = {
         'Content-Type': 'application/json',
         'Accept': 'application/json',
