@@ -1,15 +1,17 @@
 # Unloc Partner Examples
-Examples in TypeScript on how to use the [Unloc partner API](https://developer.unloc.app/) with Node.
+Examples in TypeScript on how to use the [Unloc partner API](https://developer.unloc.app/).
 
-## Batch Create
-`node lib/batch-create.js`
+## Prerequisites
+Node must be installed.
 
-```
-Options:
-  --help              Show help                                        [boolean]
-  --version           Show version number                              [boolean]
-  --partnerId, -i                                            [string] [required]
-  --partnerToken, -t                                         [string] [required]
-  --count, -c                                                       [default: 1]
-  ```
+## Setup
+    npm install
+
+## Compile
+    ./node_modules/.bin/tsc    
+
+## Examples
+
+### Batch Create Keys
+    node lib/batch-create.js
 
