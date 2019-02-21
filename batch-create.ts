@@ -49,7 +49,7 @@ async function runBatch(partnerId: string, partnerToken: string, count: number) 
 function key(message: string): object {
     const start = new Date()
     const end = new Date()
-    end.setDate(end.getHours() + 1)
+    end.setHours(end.getHours() + 1)
 
     return {
         lockId: 'virtual-123',
